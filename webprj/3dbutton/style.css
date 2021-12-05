@@ -1,0 +1,84 @@
+body
+{
+    background-color: #fafafa;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;/*vh:바디 전체높이를 정함으로 수직 정렬*/
+    overflow: hidden;
+}
+
+.magic
+{
+    background-color: #f9ca24;
+    color:#fff;
+    border: 0;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 12px 20px;
+    
+    position:fixed;
+    top:20px;
+    
+    cursor: pointer;
+    
+    letter-spacing: 10px;
+    box-shadow: 5px 3px rgba(249, 36, 36, 0.5);
+
+    z-index: 100;
+}
+
+.magic:focus
+{
+    outline: none;
+}
+
+.magic:active
+{
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+
+.boxes
+{
+    display: flex;
+
+    /*가득차면 다음줄로 넘기기*/
+    flex-wrap: wrap;
+
+    /*박스 배치시 공간이 남을경우 늘이기(균등분배종류결정)*/
+    justify-content: space-around;
+    
+    width: 500px;
+    height:  500px;
+
+    position:relative;
+
+    transition: 1s ease;
+}
+
+
+
+.big
+{
+    width: 600px;
+    height: 600px;
+}
+
+.big .box
+{
+    transform : rotateZ(360deg);
+}
+
+.box
+{
+    width: 125px;
+    height: 125px;
+    position:relative;
+    background-image: url("https://media.giphy.com/media/EZqwsBSPlvSda/giphy.gif");
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    transition: 1s ease;
+}

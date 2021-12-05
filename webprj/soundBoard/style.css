@@ -1,0 +1,31 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+button
+{
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover
+{
+    opacity:0.7;
+    color: red;
+}

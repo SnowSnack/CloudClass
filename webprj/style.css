@@ -1,0 +1,270 @@
+@media all and (min-width: 768px)
+{
+    .content1 {float: left; width: 70%;}
+    .content2 {float: left; width: 30%;}
+    .contentBox:after
+    {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+.Title h1 a
+{
+    
+    color: #000;
+    text-decoration: none;
+    
+}
+
+.Title h1
+{
+    font-family: 'Paytone One', sans-serif;
+    margin: 0;
+    font-size: 30px;
+}
+
+.menu
+{
+    background-color: #7cbac1;
+}
+
+.nav ul
+{
+    margin : 0;
+    padding : 0;
+    list-style:none; 
+}
+
+.nav li
+{
+    float: left;
+}
+
+.nav ul:after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav li a
+{
+    display: block;
+    padding : 15px;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu li a:hover
+{
+    background-color: #75dbe7;
+}
+
+.style h1
+{
+    margin-top : 0;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.storycat ul
+{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.storycat li a
+{
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    background-color: #75dbe7;
+    margin-right:5px;
+    border-radius: 5px;
+
+}
+.storycat li a:hover
+{
+    background-color: #94ecf6;
+}
+.storycat li
+{
+    float:left;
+    width : auto;
+}
+
+.storycat ul:after
+{
+    content: "";
+    display : block;
+    clear: both;
+}
+
+.story p
+{
+    margin-top:0;
+    margin-bottom: 20px;
+}
+
+.storyinfo
+{
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.storyinfo i
+{
+    color: #aaa;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.story h2
+{
+    border-left: solid 10px #7cbac1;
+    padding-left: 10px;
+    font-weight: normal;
+}
+
+.story img
+{
+    width: 100%;
+    height: auto;
+}
+
+
+.share ul
+{
+    width: 100%;
+    padding: 0;
+    margin : 0;
+    list-style : none;
+}
+
+.share li
+{
+    float : left;
+    width : carc(100%/3);
+}
+
+.share li::after
+{
+    content:"";
+    display : block;
+    clear : both;
+}
+
+.share li a
+{
+    display:block;
+    color:white;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.sidemenu h1
+{
+    margin-top:0;
+    margin-bottom: 20px;
+    color:gray;
+    font-size : 18px;
+    border-bottom: 2px dotted #ddd;
+}
+
+.sidemenu i
+{
+    color : #888;
+    margin-right:  5px;
+}
+
+.sidemenu ul
+{
+    margin:0;
+    padding: 0;
+    list-style:none;
+}
+
+.sidemenu li a
+{
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+
+.sidemenu li a:hover
+{
+    background-color: #eee;
+}
+
+.recommend img
+{
+    width: 100%;
+    height: 200px;
+    vertical-align: bottom;
+}
+
+.recommend ul
+{
+    margin: 0;
+    padding : 0;
+    list-style: none;
+}
+
+.recommend li a
+{
+    position: relative;
+    
+    display:block;
+    padding : 0;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.recommend .text
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    color:#fff;
+}
+
+.copyright p
+{
+    margin : 0;
+    color :#000;
+    font-size: 14px;
+}
+
+.Title
+{
+    padding-top:8px;
+    padding-bottom:8px;
+}
+
+.content1
+{
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
+    box-sizing: border-box;
+}
+
+.CopyrightBox
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #ddd;
+}
