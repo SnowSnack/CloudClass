@@ -1,0 +1,153 @@
+@media all and (min-width:  768px)
+{
+    .contents
+    {
+        display: flex;
+        justify-content:center;
+        margin : 0;
+        padding: 0;
+    }
+    .LayoutMainContents{width:70%;}
+    .LayoutSubContents{ width:30%;}
+    .contents:after
+    {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+ul
+{
+    list-style: none;
+}
+
+/*-------------------------타이틀-----------------------*/
+
+.LayoutTitle img
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.LayoutMenu
+{
+    height: 75px;
+}
+
+/*-------------------------메뉴-----------------------*/
+
+nav ul
+{
+    display: flex;
+    justify-content:center;
+    margin : 0;
+    padding: 0;
+}
+
+nav > ul > li
+{
+    background-color: black;
+}
+
+
+
+/*-------------------------메인컨텐츠-----------------------*/
+
+
+.LayoutMainContents
+{
+    border : 1px solid black;
+    
+}
+
+.LayoutMainContents ul
+{
+    padding : 0;
+    margin : 0;
+}
+
+ul li
+{
+    list-style: none;
+}
+
+.ShareList li
+{
+    float: left;
+    width:calc(100%/3);
+}
+
+.ShareList li a:hover
+{
+    opacity: 0.8;
+}
+
+.ShareList li::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.ShareTw
+{
+    background-color: #1da1f2;
+    color : #fff;
+}
+.ShareFb
+{
+    background-color: #1877f2;
+    color : #fff;
+}
+.ShareGp
+{
+    background-color: #dd4b39;
+    color : #fff;
+}
+
+
+/*-------------------------서브컨텐츠-----------------------*/
+
+.LayoutSubContents
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.LayoutSubContents ul
+{
+    margin : 0;
+    padding: 0;
+
+}
+
+.LayoutSubContents a
+{
+    position: relative;
+    margin :0;
+    padding : 0;
+}
+
+.SubConText
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    color:#fff;
+}
+
+/*-------------------------꼬릿말-----------------------*/
+
+.LayoutFoot
+{
+    border-top: 1px solid #ddd;
+    
+    padding-top : 15px;
+}
