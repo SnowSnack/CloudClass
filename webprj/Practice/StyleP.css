@@ -83,6 +83,11 @@ ul li
     opacity: 0.8;
 }
 
+.ShareList li a {
+    display: block;
+    text-align : center;
+}
+
 .ShareList li::after
 {
     content: "";
